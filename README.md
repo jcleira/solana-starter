@@ -4,7 +4,7 @@ This repository is a fork of the original Web3-Builders-Alliance project, intend
 ## Sessions
 I will be adding notes from each session as a reference.
 
-### Session 1 - 2024-07-31
+### Session 1 - 2024-07-30
 
 This is the largest class ever for the afternoon session. There are harder prerequisites and half the time, making it a big group with more expectations.
 
@@ -47,3 +47,12 @@ Success! Your mint transaction is: 4NXbMZtR2vxm28qBZ3YtQiSScGhGhnssb1qZqRgCqAQQF
 Next session targets:
 - SPL metadata
 - SPL transfer
+---
+
+### Session 2 - 2024-07-31
+We had Nick Frostbutter doing a presentation (recorded from the morning session) about Blinks.
+
+Blinks are a cool tool, with nice uses cases, they do have some limitations for security and integration reasons that might not be appealing (Ex: There is a registry you need to apply controlled by Dialect), but it's fine.
+
+#### Homework
+- [x] Create Token Metadata
