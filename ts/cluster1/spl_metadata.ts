@@ -7,11 +7,9 @@ import {
     DataV2Args
 } from "@metaplex-foundation/mpl-token-metadata";
 import { createSignerFromKeypair, signerIdentity, publicKey } from "@metaplex-foundation/umi";
-import { findMetadataPda } from "@metaplex-foundation/mpl-token-metadata";
-import base58 from "bs58";
 
 // Define our Mint address
-const mint = publicKey("GNGEwqYFimVjndDMtL8vKne2ygyEAoqHHG2w125BGzVY");
+const mint = publicKey("<mint address>")
 
 // Create a UMI connection
 const umi = createUmi('https://api.devnet.solana.com');
@@ -21,19 +19,18 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
 
 (async () => {
     try {
-        const metadataPda = findMetadataPda(umi, { mint });
+        // Start here
+        // let accounts: CreateMetadataAccountV3InstructionAccounts = {
+        //     ???
+        // }
 
-        const accounts: CreateMetadataAccountV3InstructionAccounts = {
-            metadata: metadataPda,
-            mint: mint,
-            mintAuthority: signer,
-            payer: signer,
-            updateAuthority: signer.publicKey,
-        };
+        // let data: DataV2Args = {
+        //     ???
+        // }
 
         const data: DataV2Args = {
-            name: "My NFT",
-            symbol: "NFT",
+            name: "x0Madcats",
+            symbol: "MADCATS",
             uri: "",
             sellerFeeBasisPoints: 500,
             creators: null,
@@ -41,23 +38,16 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
             collection: null,
         };
 
-        const args: CreateMetadataAccountV3InstructionArgs = {
-            data: data,
-            isMutable: true,
-            collectionDetails: null,
-        };
+        // let tx = createMetadataAccountV3(
+        //     umi,
+        //     {
+        //         ...accounts,
+        //         ...args
+        //     }
+        // )
 
-        let tx = createMetadataAccountV3(
-            umi,
-            {
-                ...accounts,
-                ...args
-            }
-        )
-
-        let result = await tx.sendAndConfirm(umi);
-
-        console.log(base58.encode(result.signature));
+        // let result = await tx.sendAndConfirm(umi);
+        // console.log(bs58.encode(result.signature));
     } catch(e) {
         console.error(`Oops, something went wrong: ${e}`)
     }
