@@ -9,7 +9,7 @@ const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
 
 export const GET = (req: Request) => {
     const payload: ActionGetResponse = {
-        icon: new URL("/assets/rug0.png", new URL(req.url).origin).toString(),
+        icon: new URL("/assets/rug.png", new URL(req.url).origin).toString(),
         label: "Send me MadRug",
         title: "Get your MadRug",
         description: "Rug is a decentralized rug protocol that provides you Rugs!",

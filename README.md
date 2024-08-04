@@ -1,11 +1,32 @@
-# solana-starter
-This repository is a fork of the original Web3-Builders-Alliance project, intended to be a bootstrap project for the 2024 Q3 Cohort sessions.
+# Q3T_Sol_jcleira
+This repository is my personal fork of the original Web3-Builders-Alliance project, intended to be a bootstrap project for the 2024 Q3 Cohort sessions.
+
+It does contains:
+- [A Solana Blink nextjs project that let's you mint NFTs collections from images in AWS S3 `blinks/madrug`](./blinks/madrug/)
+- My classwork and homework done during the training under the `rs` and `ts` folders
+- My personal Session's backlog that you can find below this readme.
+
+## Highlights
+Under this section I keep the most relevant work done during the sessions or at home.
+
+### Blink Madrug NTF Generator
+This is a simple project that allows you to mint NFTs from images stored in an AWS S3 bucket. It uses the Solana Blink library to create the NFTs and the metadata.
+
+You can find the project under the `blinks/madrug` folder.
+
+The blink is deployed at:
+- [https://madrug.vercel.app/api/actions/rug](https://madrug.vercel.app/api/actions/rug)
+- You can test it out in the Dialect Blink explorer: [https://dial.to/devnet](https://dial.to/devnet)
+
+This is how the blink looks like:
+
+![Blink](https://i.imgur.com/rAjIV8V.png)
 
 ## Sessions
 I will be adding notes from each session as a reference.
 
-### Session 1 - 2024-07-31
-
+<details>
+  <summary>Session 1 - 2024-07-31</summary>
 This is the largest class ever for the afternoon session. There are harder prerequisites and half the time, making it a big group with more expectations.
 
 Good practices:
@@ -48,16 +69,21 @@ Next session targets:
 - SPL metadata
 - SPL transfer
 ---
+</details>
 
-### Session 2 - 2024-07-31
+<details>
+  <summary>Session 2 - 2024-07-31</summary>
 We had Nick Frostbutter doing a presentation (recorded from the morning session) about Blinks.
 
 Blinks are a cool tool, with nice uses cases, they do have some limitations for security and integration reasons that might not be appealing (Ex: There is a registry you need to apply controlled by Dialect), but it's fine.
 
 #### Homework
 - [x] Create Token Metadata
+</details>
 
-### Session 3 - 2024-08-01
+<details>
+  <summary>Session 3 - 2024-08-01</summary>
+This session was about the Solana Program Library (SPL) and how to create NFTs.
 
 #### Classwork
 - Complete the `spl_transfer` 
@@ -94,3 +120,4 @@ Mint Address:  89x1VbCpo4xBb1HXBXxqzVQf4btiNxLrW1Aw7DaZKDWY
 ```
 
 This was the final [RUG NFT address](https://explorer.solana.com/address/GfLQaygHNhsKDh6wjx6uvWXzKBatGzEAMzqgfnGPWF8K/attributes?cluster=devnet)
+</details>
