@@ -88,12 +88,12 @@ This session was about the Solana Program Library (SPL) and how to create NFTs.
 #### Classwork
 - Complete the `spl_transfer` 
 ```bash
-➜  ts git:(master) ✗ yarn spl_transfer       
+➜  ts git:(master) ✗ yarn spl_transfer
 yarn run v1.22.21
 $ ts-node ./cluster1/spl_transfer.ts
 Transaction signature: 5M7g7isjjEhUuUA5W1mzh3q5X2WAFAgHyrmECZUXebpZtwjR4ZwS2osqoYyWv9NBAbXZj7m7xQ78YDJP8MydQgUN
 ✨  Done in 2.81s.
-``` 
+```
 
 - Complete the `sql_metadata`
 
@@ -120,4 +120,15 @@ Mint Address:  89x1VbCpo4xBb1HXBXxqzVQf4btiNxLrW1Aw7DaZKDWY
 ```
 
 This was the final [RUG NFT address](https://explorer.solana.com/address/GfLQaygHNhsKDh6wjx6uvWXzKBatGzEAMzqgfnGPWF8K/attributes?cluster=devnet)
+</details>
+
+<details>
+  <summary>Session 4 - 2024-08-06</summary>
+This session was about building the first Anchor program (a Vault proposal).
+
+I did manage to finish the vault during the class time, the code is [here](./week2/session1/anchor_vault_q3_2024/)
+
+- I also updated the format for the folders, so I will be now keeping a format as:
+  - `week1`/`session1`
+
 </details>
