@@ -132,3 +132,12 @@ I did manage to finish the vault during the class time, the code is [here](./wee
   - `week1`/`session1`
 
 </details>
+
+<details>
+  <summary>Session 5 - 2024-08-07</summary>
+This session was about building a escrow smart contract.
+
+It did required real focus during the session, but at the end I think we got a good understanding.
+
+I've uploaded the `escrow` to [`week2/session2/escrow](./week2/session2/escrow/)
+</details>
