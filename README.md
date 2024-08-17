@@ -9,6 +9,22 @@ It does contains:
 ## Highlights
 Under this section I keep the most relevant work done during the sessions or at home.
 
+### Encinitas, a monitoring solution for dApps
+
+I've built a POC of encinitas in my spare time, it has not been part of my classwork, but I think it's worth mentioning.
+
+Encinitas is a POC aobut a user-friendly infrastructure platform that can be installed by simply adding an initialization script to your dApp or providing a list of public keys for your Solana Programs. Once set up, Encinitas tracks metrics from both frontend interactions and Solana network executions, offering dashboards to help teams analyze user behavior and address issues before they escalate.
+
+![encinitas](https://i.imgur.com/oHyLozb.png)
+
+You can find more information about Encinitas in he following resources:
+
+- [Notion Web Page - Project Details](https://encinitas-monitoring.notion.site/encinitas-xyz-216a9e2971c74b67a3355f6eef6416ea)
+- [GitHub Repository - Docs](https://github.com/jcleira/encinitas-docs)
+- [GitHub Repository - Frontend](https://github.com/jcleira/encinitas-ui)
+- [GitHub Repository - Collector](https://github.com/jcleira/encinitas-collector-go)
+- [GitHub Repository - Agent](https://github.com/jcleira/encinitas-dapp-agent)
+
 ### Blink Madrug NTF Generator
 This is a simple project that allows you to mint NFTs from images stored in an AWS S3 bucket. It uses the Solana Blink library to create the NFTs and the metadata.
 
