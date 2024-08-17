@@ -126,7 +126,7 @@ This was the final [RUG NFT address](https://explorer.solana.com/address/GfLQayg
   <summary>Session 4 - 2024-08-06</summary>
 This session was about building the first Anchor program (a Vault proposal).
 
-I did manage to finish the vault during the class time, the code is [here](./week2/session1/anchor_vault_q3_2024/)
+I did manage to finish the vault during the class time, the code is [here](./anchor_vault/)
 
 - I also updated the format for the folders, so I will be now keeping a format as:
   - `week1`/`session1`
@@ -139,5 +139,5 @@ This session was about building a escrow smart contract.
 
 It did required real focus during the session, but at the end I think we got a good understanding.
 
-I've uploaded the `escrow` to [`week2/session2/escrow](./week2/session2/escrow/)
+I've uploaded the `escrow` to [week2/session2/escrow](./escrow/)
 </details>
