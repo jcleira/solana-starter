@@ -141,3 +141,33 @@ It did required real focus during the session, but at the end I think we got a g
 
 I've uploaded the `escrow` to [week2/session2/escrow](./escrow/)
 </details>
+
+<details>
+  <summary>Session 6 - 2024-08-08</summary>
+This session was about building an automated market maker (AMM) smart contract.
+
+It did required real focus during the session, but at the end I think we got a good understanding.
+
+I've uploaded the `amm` to [anchor_amm](./anchor_amm/)
+</details>
+
+<details>
+  <summary>Session 7 - 2024-08-13</summary>
+This session was about building an NFT stacker
+
+It did required real focus during the session, but at the end I think we got a good understanding.
+</details>
+
+<details>
+  <summary>Session 8 - 2024-08-14</summary>
+This session was about finishing the NFT stacker
+
+It did required real focus during the session, but at the end I think we got a good understanding.
+
+I've uploaded the `nft_stake` to [anchor_nft_stake](./anchor_nft_stake/)
+</details>
+
+<details>
+  <summary>Session 9 - 2024-08-15</summary>
+Quite interesting session about pitching each other ideas.
+</details>
